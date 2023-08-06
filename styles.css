@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .logo-container {
+    position: relative;
+  }
+
+  .logo {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .logo-title {
+    font-family:'Raleway', sans-serif;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .name-fields {
+    font-family:'Raleway', sans-serif;
+    font-size: 14px;
+  }
+
+  .name-fields label {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .name-fields input {
+    margin-bottom: 10px;
+  }
+
+  .submit-button {
+    padding: 10px 20px;
+    font-family:'Raleway', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #128953;
+    border: 3px solid #128953;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background-color: #009867;
+    border-color: #009867;
+  }
+
+  .message {
+    background-color: rgba(18, 137, 83, 0.15);
+    color: #fff;
+    border-radius: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 16px;
+    font-family:'Raleway', sans-serif;
+    margin-top: 10px;
+    color: #000;
+    display: none;
+  }
